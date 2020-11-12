@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>My Schedule</h1>
+<h3>Choose a Day to View Schedule</h3>
+<div id="daySelection"><form id="scheduleForm">
+    <input type="radio" name = "day" id="day_1" data-day="Sunday"/>
+    <label for = "day_1">Sunday</label>
+
+    <input type="radio" name = "day" id="day_2" data-day="Monday"/>
+    <label for = "day_2">Monday</label>
+
+    <input type="radio" name = "day" id="day_3" data-day="Tuesday"/>
+    <label for = "day_3">Tuesday</label>
+
+    <input type="radio" name = "day" id="day_4" data-day="Wednesday"/>
+    <label for = "day_4">Wednesday</label>
+
+    <input type="radio" name = "day" id="day_5" data-day="Thursday"/>
+    <label for = "day_5">Thursday</label>
+
+    <input type="radio" name = "day" id="day_6" data-day="Friday"/>
+    <label for = "day_6">Friday</label>
+
+    <input type="radio" name = "day" id="day_7" data-day="Saturday"/>
+    <label for = "day_7">Saturday</label>
+</form></div>
+
+<div id="output">
+    <p id="event"></p>
+    <p id="schedule"></p>
+</div>
+
+
+
+<!-- jQuery first -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- Popper and Bootstrap second -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Our code last -->
+<script src="code.js"></script>
+
+</body>
+</html>
